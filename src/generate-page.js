@@ -26,7 +26,7 @@ module.exports = employeeData => {
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">ID: ${employee.getId()}</li>
                             <li class="list-group-item">Email: <a href="mailto:${employee.getEmail()}">${employee.getEmail()}</a></li>
-                            <li class="list-group-item">GitHub: <a href="https://github.com/${employee.getGithub()}">${employee.getGithub()}</a></li>
+                            <li class="list-group-item">GitHub: <a target="_blank" href="https://github.com/${employee.getGithub()}">${employee.getGithub()}</a></li>
                         </ul>
                     </div>
                     `
@@ -45,7 +45,7 @@ module.exports = employeeData => {
                     </div>
                     `
             }
-        })
+        }).join('')
     }
     
     return `

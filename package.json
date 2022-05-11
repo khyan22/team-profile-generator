@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0"
+  },
+  "name": "tpg",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khyan22/team-profile-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khyan22/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/khyan22/team-profile-generator#readme"
+}
