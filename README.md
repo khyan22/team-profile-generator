@@ -14,8 +14,7 @@ npm install
 ```
 
 ## Walkthrough Video
-click the link to see the video: 
-
+click the link to see the video: https://drive.google.com/file/d/1OQOZcUxrDxUkEixC93-R2RUUxS6huPzF/view
 ## Code Breakdown
 since this application has a lot of different files, classes and functions I'm going to breakdown each object separately to keep everything neat
 
@@ -39,3 +38,6 @@ since this application has a lot of different files, classes and functions I'm g
 
 - ### index.js
     this file consist of only 3 lines of code the first calls in the App class. The second makes a new object, and the third uses the App class's run() method.
+
+## Sample Page Screenshot
+![screenshot](./walkthrough/page-ss/team-profile.png)
